@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            color: #393939;
+            font-size: 9pt;
+            font-weight: 300;
+            line-height: 1.5;
+            tab-size: 4;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+                "Noto Color Emoji";
+        }
+
+        body {
+
+
+            display: flex;
+            justify-content: center;
+        }
+
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .align-center {
+            align-items: center;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .font-sm {
+            font-size: 14px;
+        }
+
+        .font-md {
+            font-size: 16px;
+        }
+
+        .font-lg {
+            font-size: 18px;
+        }
+
+        .font-xl {
+            font-size: 20px;
+        }
+
+        .margin-top-12 {
+            margin-top: 12px;
+        }
+
+        .margin-5-0 {
+            margin: 5px 0px;
+        }
+
+        .margin-vertical-12 {
+            margin: 12px 0px;
+        }
+
+        .font-bold {
+            font-weight: 600;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- buyer agency agreement header area  -->
+    <section style="font-size: 14px;">
+        <div style="text-align: center; font-size: 14px;">
+            <h1 style="font-size: 16px;">BUYER AGENCY AGREEMENT</h1>
+            <h1 style="font-size: 16px;">(EXCLUSIVE RIGHT)</h1>
+            <p>This is a legally binding agreement; if not understood, seek competent legal advice prior to signing</p>
+        </div>
+        <!-- Buyer full fill address form area  -->
+
+        <div style="margin-top: 12px; font-size: 14px;">
+            <div>
+                <p><span>BUYER:</span> <span class="underline">{macros}</span></p>
+                <p style="margin: 5px 0px;"><span>Address:</span> <span class="underline">{macros}</span></p>
+                <p><span>Email Address:</span> <span class="underline">{macros}</span></p>
+
+                <div style="display: flex; justify-content: flex-start; margin: 5px 0px;">
+                    <p style="margin-right: 20px;"><span>Primary Phone:</span> <span class="underline">{macros}</span>
+                    </p>
+                    <p><span>Secondary Phone:</span> <span class="underline">{macros}</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- consideration area code here  -->
+        <div style="  margin-top: 12px; font-size: 14px; ">
+            <div>
+                <p>n consideration of the services to be performed by <span class="underline">{macros}</span>,
+                    (hereinafter referred to
+                    as
+                    Broker), Buyer</p>
+                <p>
+                    appoints Broker as Buyer’s exclusive agent for the purpose of assisting Buyer in locating for
+                    purchase
+                    acceptable real estate</p>
+                <p>
+                    within the county(ies) of <span class="underline">{macros}</span> as indicated by Buyer signing an
+                    offer to purchase
+                    agreement (option,</p>
+                <p>
+                    exchange, lease or trade) that is accepted by a Seller.</p>
+                </p>
+            </div>
+        </div>
+        <!-- list of seller and buyer area  -->
+        <div class="flex justify-center align-center font-sm" style="  margin-top: 12px;  ">
+            <div>
+                <!-- 1 number agency list  -->
+                <p> <span class="font-bold">1. Effect of Exclusive Buyer Agency Agreement.</span>By appointing
+                    Broker as Buyer’s exclusive agent, Buyer agrees to</p>
+                <div style="margin-left: 16px;">
+                    <p> conduct all negotiations for Property through Broker, and to refer to Broker all inquiries
+                        received
+                        from real estate brokers</p>
+                    <p>salespersons, prospective sellers, or any other source during the time this agreement is in
+                        effect. Buyer understands and </p>
+                    <p>agrees that the Brokerage Fee payable by Buyer to Broker under paragraph 4 of this agreement
+                        shall be deemed earned </p>
+                    <p>by Broker and payable upon Buyer’s purchase of real estate whether or not Broker was involved in
+                        the transaction leading </p>
+                    <p>o such purchase. For example, if you purchase a property on your own without Broker’s assistance
+                        (such as through an</p>
+                    <p>open house or “For Sale By Owner”), you would still owe Broker the Brokerage Fee described under
+                        paragraph 4 as</p>
+                    <p>compensation for Broker’s commitment and efforts in assisting you in attempting to acquire real
+                        estate.
+                    </p>
+                </div>
+                <!-- 2 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">2. Duration of
+                        Agency</span>Broker’s authority
+                    shall
+                    begin upon
+                    Broker’s acceptance of this agreement and shall continue until </p>
+                <div style="margin-left: 16px;">
+                    <p> he later of <span class="underline">{macros}</span>, or completion of settlement of property
+                        under an agreement</p>
+                    <p>signed prior to expiration of this Buyer Agency Agreement.
+                    </p>
+
+                </div>
+                <!-- 3 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">3. Broker’s Representations and
+                        Services. </span>Broker will utilize his/her professional knowledge to make a good faith effort
+                    to</p>
+                <div style="margin-left: 16px;">
+                    <p>
+                        locate real estate as described by the Buyer. Broker will assist Buyer throughout the
+                        transaction
+                        and will act at all times
+                    </p>
+                    <p>according to Delaware Law described in the Consumer Information Statement (CIS) of the Delaware
+                        Real
+                        Estate </p>
+                    <p>Commission. Buyer will furnish Broker with necessary personal and financial information to assist
+                        Buyer’s efforts to </p>
+                    <p>purchase property. Please note that Sellers or Sellers’ agents might not treat the existence,
+                        terms,
+                        or conditions of offers</p>
+                    <p>as confidential unless confidentiality is required by an agreement between the parties. </p>
+                </div>
+                <!-- 4 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">4. Brokerage Fee. </span>The Brokerage Fee shall
+                    be the cooperating fee as offered by the listing Broker or Seller. If this </p>
+                <div style="margin-left: 16px;">
+                    <p>
+                        cooperating fee is less than <span class="underline">{macros}</span>% of the sales price or $
+                        <span class="underline">{macros}</span>, Buyer shall pay the
+                        difference.
+                    </p>
+                    <p class="margin-vertical-12"> <span class="bold">4A.</span> The Brokerage Fee as described above
+                        shall be earned, due and
+                        payable if Buyer enters into an Agreement of Sale </p>
+
+                    <p>for any property located within the county(ies) listed above during the term of this contract, or
+                        any extensions thereof. </p>
+
+                    <p> <span class="bold">4B</span> The Brokerage Fee shall also be due and payable if Buyer enters
+                        into an Agreement of Sale for property located </p>
+                    <p>within the county(ies) listed above within <span class="underline">{macros}</span>days after
+                        termination of this Agreement,
+                        provided the property</p>
+                    <p>was introduced to Buyer by Broker or other cooperating Brokers during the term of this Agreement,
+                        or any extension</p>
+                    <p>thereof. (This provision does not apply in the event the Buyer is subject to an Exclusive Buyer
+                        Agency Agreement with </p>
+                    <p>another Broker during said time.)</p>
+                    <p class="margin-vertical-12"> <span class="bold">4C</span> If Buyer enters into an agreement to
+                        acquire an interest in real estate and that agreement fails to go to settlement
+                    </p>
+                    <p>through no fault on the part of the Buyer, the Brokerage Fee provided in this Agreement shall be
+                        waived. If that</p>
+                    <p>agreement fails to go to settlement because of any fault or non-performance on the part of Buyer,
+                        the Brokerage Fee will </p>
+                    <p>not be waived, but will be due and payable immediately.</p>
+
+                </div>
+                <!-- 5 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">5. Other Buyers. </span> Other potential buyers
+                    may
+                    be interested in the same property as Buyer. It is agreed that Broker may</p>
+                <div style="margin-left: 16px;">
+                    <p>
+                        represent those buyers whether such representation arises prior to, during, or after the end of
+                        this Agreement. Delaware
+                    </p>
+
+                    <p>law allows Agents to show the same property one client is interested in to one or more other
+                        clients. If two potential</p>
+                    <p>buyers represented by the same Designated Licensee want to make offers on the same property,
+                        Broker shall disclose</p>
+                    <p>the situation to each potential buyer. In such a situation Broker and Designated Licensee will
+                        not disclose to either buyer</p>
+                    <p>the terms of the other’s offer. If both Buyers do not consent to continuing to work with the same
+                        Designated Licensee, </p>
+                    <p>then Broker shall assign another Agent to work as Buyer’s agent, or Broker may terminate one of
+                        the Agency</p>
+                    <p>relationships, or Buyer may terminate this Buyer Agency Agreement.</p>
+
+                </div>
+                <!-- 6 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">6. Broker’s Role.</span> Buyer acknowledges the
+                    Broker is being retained solely as a real estate agent and not as an attorney, tax</p>
+                <div style="margin-left: 16px;">
+                    <p>
+                        advisor, lender, appraiser, surveyor, structural engineer, home inspector or other professional
+                        service provider. Buyer has
+                    </p>
+                    <p>been advised to seek professional advice concerning the condition of the property and legal and
+                        tax matters. </p>
+                </div>
+                <!-- 7 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">7. Costs of Services or Products Obtained from
+                        Outside Sources.</span>Buyer agrees to promptly pay when payment is due </p>
+                <div style="margin-left: 16px;">
+                    <p>
+                        for any and all products or services from outside sources obtained by Broker on Buyer’s behalf,
+                        provided Buyer has
+                    </p>
+                    <p>previously agreed to Broker requesting such products or services. (Examples: surveys, home
+                        inspections, water tests, </p>
+                    <p>etc.)</p>
+                </div>
+                <!-- 8 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">8. Assignment of Buyer.</span> No assignment of
+                    Buyer’s right under this Agreement and no assignment of rights in property </p>
+                <div style="margin-left: 16px;">
+                    <p>
+                        obtained for Buyer under this Agreement shall operate to defeat any of Broker’s rights.
+
+                    </p>
+
+                </div>
+                <!-- 9 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">9. Equal Opportunity. </span> Properties shall be
+                    shown and made available to Buyer without regard to RACE, COLOR, </p>
+                <div style="margin-left: 16px;">
+                    <p>NATIONAL ORIGIN, RELIGION, CREED, SEX, MARITAL STATUS, FAMILIAL STATUS, AGE, SEXUAL ORIENTATION,
+                    </p>
+                    <p>GENDER IDENTITY, SOURCE OF INCOME, and/or HANDICAP/DISABILITY.
+                    </p>
+                </div>
+                <!-- 10 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">10. Modification of Agreement. </span>
+                    Modifications of this Agreement are binding only when put in writing and signed by all </p>
+                <div style="margin-left: 16px;">
+                    <p>parties.
+                    </p>
+
+                </div>
+                <!-- 11 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">11. Indemnification of Broker. </span>
+                    Modifications of this Agreement are binding only when put in writing and signed by all </p>
+                <div style="margin-left: 16px;">
+                    <p>Buyer agrees to indemnify Broker and hold Broker harmless on account of any and all loss
+                    </p>
+                    <p>or damage arising out of this Agency Agreement, provided Broker is not at fault, including but
+                        not limited to, attorney’s </p>
+                    <p>fees reasonably incurred by Broker.
+                    </p>
+
+                </div>
+                <!-- 12 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">12. Attorney’s Fees. </span>
+                    In case of litigation or arbitration concerning this Agreement, the parties agree that costs and
+                </p>
+                <div style="margin-left: 16px;">
+                    <p>reasonable attorney fees shall be awarded to prevailing party.
+                    </p>
+
+
+                </div>
+                <!-- 13 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">13. Entire Agreement. </span>
+                    This Agreement constitutes the entire agreement between the parties and any prior agreements,
+                </p>
+                <div style="margin-left: 16px;">
+                    <p>whether oral or written, are not of any effect unless set forth in this Agreement.
+                    </p>
+                </div>
+                <!-- 14 number agency list -->
+                <div style="margin-top: 12px;" class="flex    ">
+                    <p class="font-bold">14.
+                    </p>
+                    <p style="width: 80%;  padding: 12px;  border: 1px black solid;">{macros}</p>
+                </div>
+                <!-- 15 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">15. Counterparts and Miscellaneous. </span>
+                    If more than one person is named as a Buyer herein, this Agreement may be
+                </p>
+                <div style="margin-left: 16px;">
+                    <p>executed by each Buyer, individually, and when so executed, such copies taken together shall be
+                        deemed to be a full and
+                    </p>
+                    <p>complete agreement between the parties. When Buyer enters into a lease agreement or exchange
+                        agreement, those shall </p>
+                    <p>be substituted for “Agreement of Sale” in this Agreement, “Tenant” shall be substituted for
+                        “Buyer”, “Landlord” shall be </p>
+                    <p>substituted for “Seller”, and “lease” shall be substituted for “purchase”.</p>
+
+                </div>
+                <!-- 16 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">16. Copy of Agreement </span>
+                    Buyer acknowledges receipt of a copy of this Agreement signed by the Broker or Designated
+                </p>
+                <div style="margin-left: 16px;">
+                    <p>Agent. A facsimile, electronic record with electronic signature, or photocopy of a signed
+                        Agreement shall constitute an
+                    </p>
+                    <p>original.</p>
+
+                </div>
+                <!-- 17 number agency list -->
+                <p style="margin-top: 12px;"> <span class="font-bold">17. Delaware Consumer Information Statement
+                    </span>
+                    Buyer acknowledges that Broker has provided Buyer with a copy of, and
+                </p>
+                <div>
+                    <p>Buyer has read and understands, the Delaware Consumer Information Statement, (CIS). A copy of the
+                        CIS is attached to
+                    </p>
+                    <p>this BUYER AGENCY AGREEMENT and thereby made a part hereof. Buyer agrees that Brokerage Office
+                        and Broker</p>
+                    <p>may act as a Dual Agent. The Designated Licensee shall act in conformity with the Relationship
+                        described on the</p>
+                    <p>Consumer Information Statement. This shall include the Designated Licensee being a Dual Agent
+                        unless excluded by the</p>
+                    <p>Consumer Information Statement. </p>
+
+                </div>
+                <p style="margin-top: 12px;">IF YOU DO NOT UNDERSTAND ALL OF THE TERMS OF THIS DOCUMENT, SEEK COMPETENT
+                    LEGAL ADVICE
+                </p>
+                <div>
+                    <p>BEFORE SIGNING.
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- term and termination area code here  -->
+        <div>
+            <div style="display: flex;  justify-content: space-between; margin: 5px 0px;">
+                <p><span>Buyer:</span> <span class="underline">{macros}</span> </p>
+                <p style="margin-left: 20px;"><span> Date: </span> <span class="underline">{macros}</span></p>
+            </div>
+            <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+                <p><span>Buyer:</span> <span class="underline">{macros}</span> <span class="underline">{macros}</span>
+                </p>
+                <p style="margin-left: 20px;"><span> Date: </span> <span class="underline">{macros}</span></p>
+            </div>
+            <div style="display: flex;  justify-content: space-between; margin: 5px 0px;">
+                <p><span>Buyer:</span> <span class="underline">{macros}</span> <span class="underline">{macros}</span>
+                </p>
+                <p style="margin-left: 20px;"><span> Date: </span> <span class="underline">{macros}</span> </p>
+            </div>
+            <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+                <p><span>Designated Agent:</span> <span class="underline">{macros}</span> <span
+                        class="underline">{macros}</span> </p>
+                <p style="margin-left: 20px;"><span> Date: </span> <span class="underline">{macros}</span> </p>
+            </div>
+
+            <div style="border: 2px solid black; padding: 12px 5px;  ">
+                <div style="display: flex; justify-content: space-between;  margin: 5px 0px;">
+                    <div class="flex">
+                        <p>Broker Acceptance:</p> <span class="underline">{macros}</span>
+                    </div>
+                    <div class="flex">
+                        <p>Effective Date: </p> <span class="underline">{macros}</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

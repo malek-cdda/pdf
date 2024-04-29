@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            color: #393939;
+            font-size: 9pt;
+            font-weight: 300;
+            line-height: 1.5;
+            tab-size: 4;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+                "Noto Color Emoji";
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .mt {
+            margin-top: 1rem;
+        }
+
+        .mt-1 {
+            margin-top: 0.5rem;
+        }
+
+        .mt-2 {
+            margin-top: 2rem;
+        }
+
+        .ml-2 {
+            margin-left: 2rem;
+        }
+
+        .ml-1 {
+            margin-left: 1rem;
+        }
+
+        p {
+            margin-top: .5rem;
+        }
+
+        .wh {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="flex justify-between">
+            <img width="50" height="50"
+                src="https://media.istockphoto.com/id/1164279629/vector/wooden-house-frame-real-estate-symbol.jpg?s=2048x2048&w=is&k=20&c=cvpQcdlp7f1xhA5Gq0-UnGVLF2yh8tFl1UNFZJuVGOg=" />
+            <div class="flex flex-column items-center">
+                <img width="50" height="50"
+                    src="https://media.istockphoto.com/id/1164279629/vector/wooden-house-frame-real-estate-symbol.jpg?s=2048x2048&w=is&k=20&c=cvpQcdlp7f1xhA5Gq0-UnGVLF2yh8tFl1UNFZJuVGOg=" />
+                <h3> Buyer Agency Agreement for Maryland and Washington, DC</h3>
+            </div>
+            <img width="50" height="50"
+                src="https://media.istockphoto.com/id/1164279629/vector/wooden-house-frame-real-estate-symbol.jpg?s=2048x2048&w=is&k=20&c=cvpQcdlp7f1xhA5Gq0-UnGVLF2yh8tFl1UNFZJuVGOg=" />
+        </div>
+        <div class="mt-2">
+            <!-- This Agreement (“Agreement”) is made on _____________________ between __________________________________________
+___________________________________ (“Buyer”) and _________________________________________________ (“Broker”)
+which assigns _____________________________________________ as Agent of the Broker (“Agent”). In consideration of
+services provided, the Broker is hereby granted the right to represent the Buyer in the purchase, option, or exchange of real property
+or cooperative units (the “Property”).  -->
+            <p>This Agreement (“Agreement”) is made on <span class="underline">{macros}</span> between
+                <span class="underline">{macros}</span>
+            </p>
+            <p> (“Buyer”) and <span class="underline">{macros}</span> (“Broker”) </p>
+            <p> which assigns <span class="underline">{macros}</span> as Agent of the Broker (“Agent”). In consideration
+                of </p>
+            <p> services provided, the Broker is hereby granted the right to represent the Buyer in the purchase,
+                option, or exchange of real property </p>
+            <p> or cooperative units (the “Property”). </p>
+        </div>
+        <!-- broker responsibilities  -->
+        <div>
+
+            <p><span class="bold underline">1. BROKER RESPONSIBILITIES:</span> Use professional knowledge and skills to
+                locate and present </p>
+            <div class="ml-1">
+                <p>real property, which is available for purchase and suitable for the Buyer’s needs. 2) Assist Buyer
+                    through the process of property</p>
+                <p> acquisition. 3) Represent the interests of the Buyer in all negotiations and transactions regarding
+                    the
+                    acquisition of real property, </p>
+                <p> notwithstanding the fact Agent may receive compensation from other parties.</p>
+            </div>
+
+        </div>
+        <div>
+
+            <p><span class="bold underline">2. BUYER RESPONSIBILITIES:</span> Buyer will work exclusively with Broker
+                during
+                the term of this Agreement, and will contact </p>
+            <div class="ml-1">
+                <p> Agent first with any questions or showing requests about Properties, and not the Seller or any other
+                    agent. At
+                    open houses, Buyer </p>
+                <p> agrees to notify the party representing the seller of this Agreement. For new home builders and new
+                    home
+                    open
+                    houses, Buyer </p>
+                <p> agrees to make any first visit to any new home builder’s model only while accompanied by Agent.
+                    Buyer
+                    will
+                    furnish Broker </p>
+                <p> with necessary financial and personal information to reasonably establish Buyer’s ability to
+                    purchase
+                    property
+                    and authorizes the </p>
+                <p> release of such information to the Seller and Seller’s Broker. </p>
+            </div>
+        </div>
+        <div>
+
+            <p><span class="bold underline">3. BROKER COMPENSATION:</span> </p>
+            <div class="ml-1">
+                <p><span class="bold">A. Commission:</span> Buyer agrees that Broker shall receive a broker’s fee
+                    (“Commission”) of <span class="underline">{macros}</span>% of
+                    the
+                    sale price </p>
+                <p> OR $ <span class="underline">{macros}</span> at the Settlement of any Property contracted to be
+                    purchased during the term
+                    of this
+                    Agreement, </p>
+                <p> no matter who locates the property, even if located entirely by Buyer. In most cases, the Seller
+                    pays
+                    Commission. Broker is </p>
+                <p> authorized to receive all Commission offered, and such payment shall be made with the Seller’s and
+                    Buyer’s
+                    prior knowledge. In </p>
+                <p> the event Seller does not pay the total of the Commission due, Buyer hereby agrees to pay the
+                    difference
+                    due to the Buyer’s </p>
+                <p> Broker, up to the full amount. Buyer also agrees to pay additional commission in the amount of
+                    $<span class="underline">{macros}</span>at Settlement, </p>
+                <p> regardless of any Seller payment of Commission. Buyer has paid an advance fee of $<span
+                        class="underline">{macros}</span> to
+                    retain
+                    the services of </p>
+                <p> Broker, which will be credited against the Commission due. </p>
+            </div>
+
+            <div class="ml-1">
+                <p> <span class="bold">B. Protection Period: </span> Commission shall be paid to Broker if a Property is
+                    purchased by Buyer within
+                    <span class="underline">{macros}</span>days after the
+                </p>
+                <p> termination of this Agreement (the “Protection Period”), unless Buyer enters into a new, valid Buyer
+                    Agency
+                    Agreement during </p>
+                <p> the term of said Protection Period. </p>
+            </div>
+
+            <div class="ml-1">
+                <p> <span class="bold">C. Amount of Commission Offered:</span> Commission paid by the Seller is
+                    generally
+                    indicated as follows: 1) in MRIS for any </p>
+                <p> properties using that Multiple Listing Service (“MLS”), or 2) in an addendum to the purchase
+                    contract
+                    for
+                    new home </p>
+                <p> construction, or properties unlisted in MRIS. </p>
+            </div>
+            <div class="ml-1">
+                <p> <span class="bold">D. Payment of Commission:</span> Commission is due at Settlement, unless Buyer,
+                    after sales contract
+                    acceptance, fails to </p>
+                <p> perform or is otherwise in default of the sales contract or executes a release to which the Broker
+                    is
+                    not a party of
+                    the
+                    sales </p>
+                <p> contract after all contingencies thereunder have been removed. In such case, the Commission is due
+                    no
+                    later
+                    than the
+                    previously </p>
+                <p> agreed Settlement date. If Buyer enters into a Contract with a Seller during the original term of
+                    this
+                    Agreement,
+                    and Seller
+                </p>
+                <p> subsequently defaults, then the original term of this Agreement is extended by the number of days
+                    property
+                    was under
+                    contract. </p>
+            </div>
+        </div>
+        <div>
+            <p><span class="bold underline">4. TERM & TERMINATION:</span> This Agreement commences when signed and
+                expires at 11:59 p.m. on
+                <span class="underline">{macros}</span>
+            </p>
+            <div class="ml-1">
+                <p>(“Expiration Date”), unless extended in writing, or unless earlier terminated as herein provided. If
+                    a Contract of Sale is entered</p>
+                <p> into by Buyer before Expiration Date, which provides for Settlement to occur after such Date, this
+                    Agreement shall be</p>
+                <p> automatically extended until Settlement has occurred or until the Contract of Sale is released in
+                    writing by the parties.</p>
+                <p> <span class="bold">For Maryland Properties Only:</span> Subject to the obligation of the Buyer to
+                    pay a fee to Broker upon the
+                    termination of this</p>
+                <p> Agreement as set forth in the Broker Compensation Paragraph, this Agreement may be terminated prior
+                    to the Expiration</p>
+                <p> Date by either party Delivering <span class="underline">{macros}</span> days advance Notice to the
+                    other. In the event Buyer wishes to</p>
+                <p> terminate this Agreement prior to the end of the Buyer Agency Period, Buyer shall compensate Broker
+                    $ <span class="underline">{macros}</span>.</p>
+
+            </div>
+        </div>
+        <div>
+            <p><span class="bold underline">5. DISCLAIMER AND LIMITATIONS:</span> Buyer acknowledges that Broker is
+                being
+                retained solely as a real estate agent, and has </p>
+            <div class="ml-1">
+                <p> been advised to seek professional advice for legal, tax, appraisal, home inspection, surveying,
+                    engineering
+                    and other
+                    matters. Buyer </p>
+                <p> acknowledges that the Broker may represent other Buyers and that other potential Buyers may
+                    consider,
+                    make
+                    offers on, or
+                    purchase </p>
+                <p> properties through Broker. Buyer consents to Broker’s representation of other Buyers before, during,
+                    and
+                    after the
+                    expiration of </p>
+                <p> this Agreement. Upon receipt by Broker of a ratified contract to purchase Property pursuant to this
+                    Buyer
+                    Agency Agreement,
+                    Broker </p>
+                <p> shall have no further obligation hereunder to procure any subsequent Properties for Buyer. Buyer
+                    agrees
+                    that
+                    Broker may
+                    perform </p>
+                <p> ministerial acts for the Seller. A ministerial act is a routine act that does not involve discretion
+                    or
+                    the
+                    exercise of the
+                    Broker’s </p>
+                <p> own judgment. Buyer acknowledges the possibility that Seller or Seller’s representatives may not
+                    treat
+                    the
+                    existence, terms
+                    or </p>
+                <p> conditions of the Buyer’s offer as confidential information. </p>
+            </div>
+        </div>
+        <div>
+            <p><span class="bold underline">6. GENERAL PROVISIONS:</span></p>
+            <div class="ml-1">
+                <p><span class="bold">A. Laws and Regulations:</span> Buyer acknowledges that Broker must comply with
+                    federal, state and local laws and regulations. </p>
+                <p> Buyer understands that, as a REALTOR®, Broker must also adhere to the Code of Ethics promulgated by
+                    the NATIONAL </p>
+                <p> ASSOCIATION OF REALTORS®. </p>
+            </div>
+            <div class="ml-1">
+                <p><span class="bold">B. Delivery:</span> Delivery or Delivered means hand carried, sent by overnight
+                    delivery service, sent by wired or electronic medium </p>
+                <p> which produces a tangible record of the transmission (such as a “fax”, email which includes an
+                    attachment
+                    with an actual copy of </p>
+                <p> the executed instruments being transmitted, or U.S. Postal mailing). In the event of overnight
+                    delivery
+                    service, Delivery will be </p>
+                <p> deemed to have been made on the next business day following the sending, unless earlier receipt is
+                    acknowledged in writing. In </p>
+                <p> the event of U.S. Postal mailing, Delivery will be deemed to have been made on the third business
+                    day
+                    following the mailing, unless </p>
+                <p> earlier receipt is acknowledged in writing. </p>
+            </div>
+            <div class="ml-1">
+                <p><span class="bold">C. Notice:</span> This agreement shall be deemed enforceable when it and all
+                    addenda
+                    and any modifications thereto have been signed, </p>
+                <p> initialed where required by Buyer and Broker (or Supervising Manager), and Delivered to the other
+                    party. </p>
+            </div>
+            <div class="ml-1">
+                <p><span class="bold">D. Paragraph Headings:</span> The Paragraph headings in this Agreement are for
+                    reference
+                    and convenience only, and do not define </p>
+                <p> or limit the intent, rights or obligations of the parties. </p>
+            </div>
+            <div class="ml-1">
+                <p><span class="bold">E. Definitions:</span> The singular shall include the plural, the plural the
+                    singular,
+                    and the use of either </p>
+            </div>
+        </div>
+        <div>
+            <p><span class="bold underline">7. INCLUSIONS, AGREEMENT AND RECEIPT:</span> This document and the
+                attachments
+                below contain the full and entire </p>
+            <div class="ml-1">
+                <p> Agreement between Buyer and Broker and supersede any prior or contemporaneous agreements, if any,
+                    whether
+                    written or oral </p>
+                <p> between the parties. Each acknowledges receipt of a copy of this Agreement. In accordance with
+                    Maryland
+                    and/or
+                    District of </p>
+                <p> Columbia Law, included with this Agreement are: </p>
+            </div>
+            <div class="ml-1 flex justify-between">
+                <div>
+                    <p> <span class="bold">Maryland: </span> </p>
+                    <p class="flex items-center"> <span
+                            style=" display: block; width: 8px; height: 8px; border: 1px solid black; margin-right: 2px;"></span>
+                        Understanding Whom Real Estate Agents Represent
+                    </p>
+                    <p class="flex items-center"> <span
+                            style=" display: block; width: 8px; height: 8px; border: 1px solid black; margin-right: 2px;"></span>
+                        Consent For Dual Agency
+                    </p>
+                    <p class="flex items-center"> <span
+                            style=" display: block; width: 8px; height: 8px; border: 1px solid black; margin-right: 2px;"></span>
+                        Notification of Dual Agency Within a Team
+                    </p>
+                </div>
+                <div>
+                    <p> <span class="bold">Washington, DC:</span> </p>
+                    <p class="flex items-center"> <span
+                            style=" display: block; width: 8px; height: 8px; border: 1px solid black; margin-right: 2px;"></span>
+                        Consent for Dual and Designated Representation </p>
+                </div>
+            </div>
+            <div class="ml-1">
+                <p> <span class="bold">Dual Agency:</span> In the event of dual agency, when either the Buyer or Broker
+                    declines to
+                    consent in writing to Dual Agency, either </p>
+                <p> party may terminate this Agreement by written notice to the other party. </p>
+            </div>
+        </div>
+        <div>
+            <p class="bold">8. <span class="underline">ADDITIONAL PROVISIONS: </span> <span
+                    class="underline">{macros}</span> </p>
+            <p class="underline">{macros}</p>
+        </div>
+        <div class="flex justify-between">
+            <div class="flex justify-between" style="width: 50%;  ">
+                <div>
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">
+                            Buyer Name & Signature</span> </p>
+                </div>
+                <div class=" ">
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">Date</span> </p>
+                </div>
+
+            </div>
+            <div class="flex justify-between ml-2" style="width: 46%; ">
+                <div>
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">Broker Name & Signature</span> </p>
+                </div>
+                <div class=" ">
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">Date</span> </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex justify-between">
+            <div class="flex justify-between" style="width: 50%;  ">
+                <div>
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">
+                            Buyer Name & Signature</span> </p>
+                </div>
+                <div class=" ">
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">Date</span> </p>
+                </div>
+
+            </div>
+            <div class="flex justify-between ml-2" style="width: 46%; ">
+                <div>
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">Agent Name & Signature</span> </p>
+                </div>
+                <div class=" ">
+                    <p class="underline" style="width: 100%;"> <span class="underline">{macros}</span></p>
+                    <p> <span class="bold">Date</span> </p>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <div style="display: flex;  justify-content: space-between; margin: 5px 0px;">
+                <p class="wh"><span>Address: </span> <span class="underline">{macros}</span> </p>
+                <p class="wh" style="margin-left: 20px;"><span> Broker Firm Name:</span> <span
+                        class="underline">{macros}</span>
+                </p>
+            </div>
+            <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+                <p class="wh"><span>Email:</span> <span class="underline">{macros}</span> <span
+                        class="underline">{macros}</span>
+                </p>
+                <p style="margin-left: 20px;" class="wh"><span> Date: </span> <span class="underline">{macros}</span>
+                </p>
+            </div>
+
+            <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+                <p class="wh"><span>Phone: </span> <span class="underline">{macros}</span> <span
+                        class="underline">{macros}</span>
+                </p>
+                <p class="wh" style="margin-left: 20px;"><span> Broker Phone: </span> <span
+                        class="underline">{macros}</span> </p>
+            </div>
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>

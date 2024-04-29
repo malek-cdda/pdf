@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            color: #393939;
+            font-size: 9pt;
+            font-weight: 300;
+            line-height: 1.5;
+            tab-size: 4;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+                "Noto Color Emoji";
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .mt {
+            margin-top: 1rem;
+        }
+
+        .mt-1 {
+            margin-top: 0.5rem;
+        }
+
+        .mt-2 {
+            margin-top: 2rem;
+        }
+
+        .ml-2 {
+            margin-left: 2rem;
+        }
+
+        .ml-1 {
+            margin-left: 1rem;
+        }
+
+        p {
+            margin-top: .5rem;
+        }
+
+        .wh {
+            width: 50%;
+        }
+
+        .border-right {
+            border-right: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="flex justify-between items-center flex-column">
+            <h1>BUYER (TENANT) AGENCY CONTRACT</h1>
+            <span>This form recommended and approved for, but not restricted to use by, the members of the Pennsylvania
+                Association of Realtors® (PAR)</span>
+            <span class="" style="display: block;">Note: The terms “buyer,” “seller,” “agreement of sale,” and
+                “purchase” also will be construed to mean
+            </span>
+            <span>“tenant,” “landlord,” “lease,” and “rent,” respectively, throughout this agreement.</span>
+        </div>
+        <div class="flex justify-between mt-2">
+            <div class="wh border-right">
+                <p>
+                    Broker (Company) <span class="underline">{macros}</span>
+                </p>
+                <p>
+                    Company Address<span class="underline">{macros}</span>
+                </p>
+                <p>
+                    Company Phone <span class="underline">{macros}</span>
+                </p>
+                <p>
+                    Company Fax <span class="underline">{macros}</span>
+                </p>
+            </div>
+            <div class="wh ml-1">
+                <p>
+                    Licensee(s) (Name) <span class="underline">{macros}</span>
+                </p>
+                <p>
+                    Direct Phone(s)<span class="underline">{macros}</span>
+                </p>
+                <p>
+                    Cell Phone(s)<span class="underline">{macros}</span>
+                </p>
+                <p>
+                    Licensee Fax <span class="underline">{macros}</span>
+                </p>
+                <p>
+                    Email <span class="underline">{macros}</span>
+                </p>
+            </div>
+        </div>
+        <div>
+            <h4>BUYER <span class="underline">{MACROS}</span></h4>
+            <h4>BUYER’S MAILING ADDRESS <span class="underline">{MACROS}</span></h4>
+            <div class="flex">
+                <h4 class="wh">PHONE <span class="underline">{MACROS}</span></h4>
+                <h4 class="wh">FAX <span class="underline">{MACROS}</span></h4>
+            </div>
+            <h4 class="wh">E-MAIL<span class="underline">{MACROS}</span></h4>
+            <p>Buyer understands that this Buyer Agency Contract is between Broker and Buyer</p>
+
+            <p>Does Buyer have a Buyer Agency Contract with another Broker? ◻Yes ◻ No</p>
+            <p>If yes, explain:<span class="underline">{macros}</span></p>
+        </div>
+
+        <div>
+            <h4>STARTING & ENDING DATES OF BUYER AGENCY CONTRACT (ALSO CALLED “TERM”)</h4>
+            <div class="ml-2">
+                <p>(A) No Association of REALTORS® has set or recommended the term of this contract. Broker/Licensee and
+                    Buyer have
+                    discussed and agreed </p>
+                <p> upon the length or term of this Contract. Broker may be paid a fee that is a
+                    percentage of
+                    the purchase price. Even though Broker’s Fee, or </p>
+                <p> a portion of it, may be paid by seller or listing
+                    broker, Broker
+                    will continue to represent the interests of Buyer.</p>
+                <p>(B) This Contract applies to any property that Buyer chooses to purchase during the term of this
+                    Contract. Buyer will
+                    not enter into </p>
+                <p> a Buyer Agency Contract with another broker/licensee that begins before the Ending Date
+                    of this Contract.</p>
+                <p>Starting Date: This Contract starts when signed by Buyer and Broker, unless otherwise stated here:
+                    <span class="underline">{macros}</span>.
+                </p>
+                <p>Ending Date: This contract ends at 11:59 PM on <span class="underline">{macros}</span>.</p>
+                <p>(C) If Buyer is negotiating or has entered into an Agreement of Sale, this Contract ends upon
+                    settlement.
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <h4>BROKER’S FEE</h4>
+            <div class="ml-2">
+                <p>(A) No Association of REALTORS® has set or recommended the Broker’s fee. Broker and Buyer have
+                    negotiated the fee Broker will <br />
+                    receive for performing real estate services for Buyer.</p>
+
+                <p>(B) Broker’s Fee, paid by Buyer to Broker, is as follows:</p>
+                <p>1. (a) In a purchase transaction with a seller represented by a real estate broker the fee is _____%
+                    of the sales price OR <br />
+                    $<span class="underline">{macros}</span>, whichever is greater, AND $<span
+                        class="underline">{macros}</span>.</p>
+                <p>(b) In a purchase transaction with a seller who is not represented by a real estate broker the fee
+                    is<span class="underline">{macros}</span>% of the sales price <br />
+                    OR $<span class="underline">{macros}</span>, whichever is greater, AND $<span
+                        class="underline">{macros}</span>.</p>
+
+                <p>2. Broker’s Fee in event of a lease transaction is: <span class="underline">{macros}</span>.</p>
+                <p>3. It is Broker’s policy to accept compensation offered by the listing broker. If the amount received
+                    from the listing broker is less <br />
+                    than the amount in paragraph 2(B)1, in a purchase transaction, or 2(B)2, in a lease transaction,
+                    Buyer<br />
+                    will pay Broker the difference, unless seller agrees to pay the difference as a term in the
+                    agreement of
+                    sale.</p>
+
+                <p>(C) 1. The balance of Broker’s Fee is earned if Buyer enters into an agreement of sale during the
+                    term of
+                    this Contract, whether <br />
+                    brought about by Broker, Broker’s Licensee(s) or by any other person, including Buyer. If Buyer
+                    defaults
+                    on the terms <br />
+                    of an agreement of sale, Broker’s Fee will be paid by Buyer to Broker at that time.
+                </p>
+                <p>2. If Buyer enters into an agreement of sale for a property after the Ending Date of this Contract,
+                    Buyer
+                    will pay Broker’s Fee if:</p>
+                <p>(a) The agreement of sale is a result of Broker’s actions during the term of this Contract, OR</p>
+                <p>(b) The property was seen during the term of this Contract, AND</p>
+                <p>(c) Buyer is not under an exclusive buyer agency contract with another broker at the time Buyer
+                    enters
+                    into an agreement of sale.</p>
+                <!-- (D) Buyer is advised that contacting a listing broker or seller directly may compromise Broker’s ability to earn compensation
+                    from a listing broker and could result in Buyer’s obligation to pay a fee to Broker. -->
+                <p>(D) Buyer is advised that contacting a listing broker or seller directly may compromise Broker’s
+                    ability to earn compensation <br /> from a listing broker and could result in Buyer’s obligation to
+                    pay a fee to Broker.</p>
+            </div>
+        </div>
+        <div>
+            <h4>DUAL AGENCY</h4>
+            <div class="ml-2">
+                <p>Buyer agrees that Broker and Broker’s Licensee(s) stated above may also represent the seller(s)
+                    of
+                    the
+                    property Buyer might buy. A <br /> Broker is a Dual Agent when a Broker represents both Buyer
+                    and a seller
+                    in
+                    the same transaction. A Licensee is a <br /> Dual Agent when a Licensee represents Buyer and a
+                    seller in
+                    the
+                    same transaction. All of Broker’s licensees are also Dual Agents <br /> UNLESS there are separate
+                </p>
+                <p>COPYRIGHT PENNSYLVANIA ASSOCIATION OF REALTORS® 2015</p>
+                <p>Buyer Initials: {macros} BAC Page 1 of 3 Broker/Licensee Initials: {macros}</p>
+                <p>Designated Agents for Buyer and a seller. If the same Licensee is designated for Buyer and a
+                    seller, the Licensee is a Dual Agent. Buyer <br />
+                    understands that Broker is a Dual Agent when Buyer is viewing properties listed by Broker.</p>
+            </div>
+        </div>
+
+        <div>
+            <h4>DESIGNATED AGENCY</h4>
+            <div class="ml-2">
+                <p>Designated Agency is applicable, unless checked below. Broker designates the Licensee(s) stated above
+                    to
+                    exclusively represent the<br /> interests of Buyer. If Licensee is also the Seller’s Agent, then
+                    Licensee
+                    is a
+                    DUAL AGENT.</p>
+                <p>Designated Agency is not applicable.</p>
+            </div>
+        </div>
+        <div>
+            <h4>CONFLICT OF INTEREST</h4>
+            <div class="ml-2">
+                <p>It is a conflict of interest when Broker or Licensee has a financial or personal interest in the
+                    property
+                    and/or cannot put Buyer’s interests<br /> before any other. If Broker, or any of Broker’s licensees,
+                    has a
+                    conflict of interest, Broker will notify Buyer in a timely manner.</p>
+            </div>
+        </div>
+        <div>
+            <h4>BROKER’S SERVICES TO SELLER</h4>
+            <div class="ml-2">
+                <p>Broker may provide services to a seller for which Broker may accept a fee. Such services may include,
+                    but
+                    are not limited to, listing <br />property for sale; representing the Seller as Seller Agent;
+                    deed/document
+                    preparation; ordering certifications required for closing; fina<br />ncial services; title transfer
+                    and
+                    preparation services; ordering insurance, construction, repair, or inspection services.</p>
+            </div>
+        </div>
+        <div>
+            <h4>OTHER BUYERS</h4>
+            <div class="ml-2">
+                <p>Broker/Licensee may show the same properties to other buyers and may represent those buyers in
+                    attempts
+                    to purchase the same prop<br />erty.</p>
+            </div>
+        </div>
+        <div>
+            <h4>NO OTHER CONTRACTS</h4>
+            <div class="ml-2">
+                <p>Buyer will not enter into another buyer agency contract with another broker that begins before the
+                    Ending
+                    Date of this Contract.</p>
+            </div>
+        </div>
+        <div>
+            <h4>ENTIRE CONTRACT</h4>
+            <div class="ml-2">
+                <p>This Contract is the entire agreement between Broker and Buyer. Any verbal or written agreements that
+                    were made before are not a<br /> part of this Contract.</p>
+            </div>
+        </div>
+        <div>
+            <h4>CHANGES TO THIS CONTRACT</h4>
+            <div class="ml-2">
+                <p>All changes to this Contract must be in writing and signed by Broker and Buyer.</p>
+            </div>
+        </div>
+        <div>
+            <h4>TRANSFER OF THIS CONTRACT</h4>
+            <div class="ml-2">
+                <p>Buyer agrees that Broker may transfer this Contract to another broker when:</p>
+                <p>1. Broker stops doing business, OR</p>
+                <p>2. Broker forms a new real estate business, OR</p>
+                <p>3. Broker joins his business with another.</p>
+                <p>Broker will notify Buyer immediately in writing if Broker transfers this Contract to another broker.
+                    Buyer
+                    will follow all requirements<br /> of this Contract with the new broker.</p>
+            </div>
+        </div>
+        <div>
+            <h4>CONFIDENTIALITY</h4>
+            <div class="ml-2">
+                <p>Buyer understands that sellers or sellers’ representatives might not treat the existence, terms or
+                    conditions of any offer as confidential unless <br /> there is a confidentiality agreement between
+                    Buyer
+                    and
+                    the seller.</p>
+            </div>
+        </div>
+        <div>
+            <h4>EXPERTISE OF REAL ESTATE AGENTS</h4>
+            <div class="ml-2">
+                <p>Pennsylvania real estate agents are required to be licensed by the Commonwealth of Pennsylvania and
+                    are
+                    obligated to disclose adverse<br /> factors about a property that are reasonably apparent to someone
+                    with
+                    expertise in the marketing of real property.</p>
+                <p>(A) If Buyer wants information regarding specific conditions or components of the property which are
+                    outside the Agent’s expertise<br />, Buyer is encouraged to seek the advice of an appropriate
+                    professional.</p>
+                <p>(B) If Buyer wants financial, legal, or any other advice, Buyer is encouraged to seek the services of
+                    an
+                    accountant,<br /> lawyer, or other appropriate professional.</p>
+            </div>
+        </div>
+        <div>
+            <h4>DEPOSIT MONEY</h4>
+            <div class="ml-2">
+                <p>(A) Broker will keep (or will give to the listing broker, who will keep) all deposit monies that
+                    Broker/Licensee receives in an escrow account <br /> as required by the real estate licensing laws
+                    and
+                    regulations until the sale is completed or an agreement of sale is terminated, or the <br />terms of
+                    a
+                    prior
+                    written agreement between the Buyer and a seller have been met. Buyer and Seller may name a
+                    non-licensee
+                    as<br /> the escrow holder, in which case the escrow holder will be bound by the terms of the escrow
+                    agreement,
+                    not by the Real Estate <br />Licensing and Registration Act. Buyer agrees that the person keeping
+                    the
+                    deposit
+                    monies may wait to deposit any uncashed check <br />that is provided as deposit money until Seller
+                    has
+                    accepted
+                    an offer.</p>
+                <p>(B) Regardless of the apparent entitlement to deposit monies, Pennsylvania law does not allow a
+                    Broker
+                    holding deposit monies to<br /> determine who is entitled to the deposit monies when settlement does
+                    not
+                    occur.
+                    Broker can only release the deposit monies:</p>
+                <p>1. If an agreement of sale is terminated prior to<br /> settlement and there is no dispute over
+                    entitlement
+                    to
+                    the deposit monies. A written agreement signed by both parties<br /> is evidence that there is no
+                    dispute
+                    regarding deposit monies.</p>
+                <p>2. If, after Broker has received deposit monies, Broker receives <br /> a written agreement that is
+                    signed
+                    by
+                    Buyer and Seller,<br /> directing Broker how to distribute some or all of the deposit monies.</p>
+                <p>3. According to the terms of a final order of court.</p>
+                <p>4. According to the terms of a prior written agreement between Buyer and Seller that directs the
+                    Broker<br />
+                    how to distribute the deposit monies if there is a dispute between the parties that is not resolved.
+                </p>
+                <p>(C) Buyer agrees that if Buyer names Broker or Broker’s licensee(s) in litigation regarding deposit
+                    monies,<br />
+                    the attorneys’ fees and costs of the Broker(s) and licensee(s) will be paid by Buyer.</p>
+            </div>
+        </div>
+
+
+        <div class="mt-2">
+            <h4>15.CIVIL RIGHTS ACTS</h4>
+            <div class="ml-2">
+                <p> Federal and state laws make it illegal for a seller, broker, or anyone to use RACE, COLOR, RELIGION
+                    or RELIGIOUS CREED, SEX, <br />
+                    DISABILITY (physical or mental), FAMILIAL STATUS (children under 18 years of age), AGE (40 or
+                    older), NATIONAL ORIGIN, USE <br />
+                    OR HANDLING/TRAINING OF SUPPORT OR GUIDE ANIMALS, or the FACT OF RELATIONSHIP OR ASSOCIATION TO AN
+                    <br />
+                    INDIVIDUAL KNOWN TO HAVE A DISABILITY as reasons for refusing to sell, show, or rent properties,
+                    loan money, or set deposit <br />
+                    amounts, or as reasons for any decision relating to the sale or rental of property
+                </p>
+            </div>
+
+        </div>
+
+        <div>
+            <h4>16. NOTICE REGARDING CONVICTED SEX OFFENDERS (MEGAN’S LAW)</h4>
+            <div class="ml-2">
+                <p>The Pennsylvania General Assembly has passed legislation (often referred to as “Megan’s Law,” 42
+                    Pa.C.S. §9791 et seq.) providing <br />
+                    for community notification of certain convicted sex offenders. Buyers are encouraged to contact the
+                    municipal police department or<br />
+                    the Pennsylvania State Police for information relating to the presence of sex offenders near a
+                    particular property, or to check the<br /> information on the Pennsylvania State Police Web site at
+                    www.pameganslaw.state.pa.us </p>
+            </div>
+        </div>
+
+        <div>
+            <h4>17. BUYER INSPECTIONS</h4>
+            <div class="ml-2">
+                <p>(A) Unless Buyer and a seller agree otherwise, real estate is sold IN ITS PRESENT CONDITION. It is
+                    Buyer’s responsibility to <br />
+                    determine whether the condition of the property is satisfactory. Buyer is advised to carry out an
+                    inspection, at Buyer’s expense, <br />
+                    by qualified professionals to determine the condition of the structure or its components. Areas of
+                    concern may include, but are not <br />
+                    limited to: electrical; plumbing; heating, ventilating and air conditioning; appliances and
+                    fixtures;
+                    water infiltration; basement; <br />
+                    roof; property boundaries; asbestos, mold and indoor air quality, carbon monoxide, radon, and
+                    environmental hazards or substances; <br />
+                    wood-destroying insect infestation; on-site water service and/or sewage system; property insurance;
+                    deeds, restrictions <br />
+                    and zoning; and lead-based paint. Buyer should discuss inspections and any special needs with
+                    Licensee.
+                </p>
+                <p>(B) Buyer is advised that information regarding properties considered for purchase by Buyer has been
+                    provided by a seller or a seller’s <br />
+                    broker. Such information may include, but is not limited to, the information on the Seller’s
+                    Property
+                    Disclosure Statement, including <br />
+                    environmental conditions; MLS information, including information regarding restrictions, taxes,
+                    assessments, association fees, zoning <br />
+                    restrictions, dimensions, boundaries (if identified); and marketing information. Unless otherwise
+                    noted, Broker has not verified <br />
+                    the accuracy of this information, and Buyer is advised to investigate its accuracy
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <h4>18. RECOVERY FUND</h4>
+            <div class="ml-2">
+                <p>Pennsylvania has a Real Estate Recovery Fund (the Fund) to repay any person who has received a final
+                    court ruling (civil judgment) <br />
+                    against a Pennsylvania real estate licensee because of fraud, misrepresentation, or deceit in a real
+                    estate transaction. The Fund repays <br />
+                    persons who have not been able to collect the judgment after trying all lawful ways to do so. For
+                    complete details about the Fund, call <br />
+                    (717) 783-3658, or (800) 822-2113 (within Pennsylvania) and (717) 783-4854 (outside Pennsylvania)
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <h4>19. SPECIAL CLAUSES</h4>
+            <div class="ml-2">
+                <p>A. The following are part of this Buyer Agency Contract if checked:</p>
+                <p>Single Agency Addendum (PAR Form SA)</p>
+                <p class="underline">{macros}</p>
+                <p class="underline">{macros}</p>
+                <p>B. Additional Terms:{macros}</p>
+            </div>
+        </div>
+
+        <div>
+            <h4>Buyer has read and received the Consumer Notice as adopted by the State Real Estate Commission at 49 Pa.
+                Code §35.336.</h4>
+            <h4>Buyer has read the entire Contract before signing. Buyer must sign this Contract.</h4>
+            <h4>If Buyer is obtaining mortgage financing, Buyer shall promptly deliver to Broker a copy of all Loan
+                Estimate(s) and Closing Disclosure(s)<br /> upon receipt.Buyer gives permission for Broker to send
+                information
+                about this transaction to Buyer’s fax number(s) and/or e-mail<br /> address(es) listed.</h4>
+            <h4>Return of this Agreement, and any addenda and amendments, including return by electronic transmission,
+                bearing the signatures of <br />all parties, constitutes acceptance by the parties.</h4>
+            <h4>This Contract may be executed in one or more counterparts, each of which shall be deemed <br />to be an
+                original
+                and which counterparts together shall constitute one and the same Agreement of the Parties.</h4>
+            <h4>NOTICE BEFORE SIGNING: IF BUYER HAS LEGAL QUESTIONS, BUYER IS <br />ADVISED TO CONSULT A PENNSYLVANIA
+                REAL
+                ESTATE ATTORNEY.</h4>
+        </div>
+        <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+
+            <p class=" flex"><span class="bold">Buyer : </span> <span class="underline">{macros}</span>
+            </p>
+            <p class="wh" style="margin-left: 20px;"><span> Date:</span> <span class="underline">{macros}</span>
+            </p>
+        </div>
+        <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+
+            <p class=" flex"><span class="bold">Buyer : </span> <span class="underline">{macros}</span>
+            </p>
+            <p class="wh" style="margin-left: 20px;"><span> Date:</span> <span class="underline">{macros}</span>
+            </p>
+        </div>
+        <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+
+            <p class=" flex"><span class="bold">Buyer : </span> <span class="underline">{macros}</span>
+            </p>
+            <p class="wh" style="margin-left: 20px;"><span> Date:</span> <span class="underline">{macros}</span>
+            </p>
+        </div>
+        <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+
+            <p class=" flex"><span class="bold">BROKER (COMPANY) : </span> <span class="underline">{macros}</span>
+            </p>
+
+        </div>
+        <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+
+            <p class=" flex"><span class="bold">ACCEPTED ON BEHALF OF BROKER BY: </span> <span
+                    class="underline">{macros}</span>
+            </p>
+            <p class="wh" style="margin-left: 20px;"><span> Date:</span> <span class="underline">{macros}</span>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            color: #393939;
+            font-size: 9pt;
+            font-weight: 300;
+            line-height: 1.5;
+            tab-size: 4;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+                "Noto Color Emoji";
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .mt {
+            margin-top: 1rem;
+        }
+
+        .mt-1 {
+            margin-top: 0.5rem;
+        }
+
+        .mt-2 {
+            margin-top: 2rem;
+        }
+
+        .ml-2 {
+            margin-left: 2rem;
+        }
+
+        .ml-1 {
+            margin-left: 1rem;
+        }
+
+        p {
+            margin-top: .5rem;
+        }
+
+        .wh {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1 style="text-align: center;">WEST VIRGINIA BUYER AGENCY AGREEMENT</h1>
+        <!-- I. The Parties. This West Virginia Buyer Agency Agreement (“Agreement”) made on
+        ____________________, 20____ is by and between: -->
+        <p><span class="bold">I. The Parties.</span> This West Virginia Buyer Agency Agreement (“Agreement”) made on
+        </p>
+        <p> <span class="underline"> {macros}</span>
+            , 20<span class="underline">{macross}</span> is by and between:</p>
+        <!-- Buyer: ____________________ with a mailing address of _____________________________,
+            City of ____________________, State of ____________________ (“Buyer”) -->
+        <p>Buyer: <span class="underline">{macros}</span> with a mailing address of <span
+                class="underline">{macros}</span>,
+            City of <span class="underline">{macros}</span>, State of </p>
+        <p> <span class="underline">{macros}</span> (“Buyer”)
+        </p>
+        <p class=" mt-1">AND</p>
+        <p>Agency: <span class="underline">{macros}</span> (“Broker”) of <span class="underline">{macros}</span>
+            (“Agency”) with a </p>
+        <p>
+            mailing address of <span class="underline">{macros}</span>, City of <span class="underline">{macros}</span>,
+            State </p>
+        <p>
+            of <span class="underline">{macros}</span>. Collectively, the Buyer and Agency shall be referred to as the
+        </p>
+        <p>
+            “Parties”.</p>
+        <div>
+            <!-- If for any reason the Broker is not able to fulfill their duties under the terms and conditions of this
+                Agreement, another agent from the Agency may be appointed during the Listing Period of this
+                Agreement. Any person or entity that the Buyer enters into a contractual agreement for real
+                estate shall be referred to as a “Seller” in this Agreement. -->
+            <p>If for any reason the Broker is not able to fulfill their duties under the terms and conditions of this
+            </p>
+            <p>Agreement, another agent from the Agency may be appointed during the Listing Period of this
+            </p>
+            <p>Agreement. Any person or entity that the Buyer enters into a contractual agreement for real
+            </p>
+            <p>estate shall be referred to as a “Seller” in this Agreement.</p>
+
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">II. Services Provided.</span> Buyer hereby agrees to hire the Agency on a(n): (check
+                one)
+            </p>
+            <div class="ml-2">
+                <p><span class="bold">☐ - Exclusive Basis:</span> To accept the terms of this Agreement and communicate
+                    with the
+                </p>
+                <p> Agency on an exclusive basis in their efforts to assist in acquiring real property that
+                </p>
+                <p>meets the wants and needs of the Buyer through either purchase, option, exchange,
+                </p>
+                <p>trade, or lease. The Commission, under an exclusive basis, is due and payable even
+                </p>
+                <p>under the circumstance the Buyer acquires real property on their own without the
+                </p>
+                <p>assistance or involvement of the Agency.</p>
+
+            </div>
+            <div class="ml-2">
+                <p><span class="bold">☐ - Non-Exclusive Basis:</span> To accept the terms of this Agreement and
+                    communicate
+                </p>
+                <p>with the Agency on a non-exclusive basis in their efforts to assist in acquiring real
+                </p>
+                <p>property that meets the wants and needs of the Buyer through either purchase, option,
+                </p>
+                <p>exchange, trade, or lease. The Commission, under a non-exclusive basis, is due and
+                </p>
+                <p>payable only if the Buyer acquires real property with the assistance and involvement of
+                </p>
+                <p>the Agency. In the event the Buyer purchases real property during the Listing Period
+                </p>
+                <p>without the use of the Agency, the Agency shall not be due a Commission.</p>
+            </div>
+
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">III. Period of Agreement.</span> This Agreement shall start on <span
+                    class="underline">{macros}</span>, 20<span class="underline">{macros}</span> </p>
+            <p>
+                (“Effective Date”) and end on <span class="underline">{macros}</span>, 20<span
+                    class="underline">{macros}</span> at 12:00 midnight (“Listing </p>
+            <p>
+                Period”), unless the expiration date is extended in writing.
+            </p>
+            <div class="ml-2">
+                <p><span class="bold">a.) Listing Period Extension.</span> The Commission provided shall be due if real
+                    property is
+                </p>
+                <p>acquired in accordance with Section II within <span class="underline">{macros}</span> days
+                    (“Extension
+                    Period”) after the</p>
+                <p>expiration of the Listing Period to anyone with whom the Broker or Agency has</p>
+                <p>negotiated unless the Buyer is in agreement, in good faith, with another real estate</p>
+                <p>agency. The term “negotiation” shall include obtaining information about real property,</p>
+                <p>showing real property, or presenting an offer on the real property. All rights under this</p>
+                <p>Section shall terminate upon the expiration of the Extension Period.</p>
+            </div>
+
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">IV. Compensation. </span> In the event real property is acquired under Section II of
+                this Agreement, </p>
+            <p>the Buyer agrees to compensate the Agency under the following terms and conditions:</p>
+
+            <div class="ml-2">
+                <p class="mt-2"><span class="bold">a.) Listed Property.</span> To pay the Agency a commission in the
+                    amount of<span class="underline">{macross}</span>%
+                    or
+                </p>
+                <p>
+                    $ <span class="underline">{macross}</span> of the purchase price or the amount offered by the
+                    listing
+                    agency, whichever is greater (“Commission”).
+                </p>
+
+                <p class="mt-2"><span class="bold">b.) Unlisted Property.</span> To pay the Agency a commission of <span
+                        class="underline">{macross}</span>% or
+                </p>
+                <p> $ <span class="underline">{macross}</span> (“Commission”).</p>
+
+                <p class="mt-2"><span class="bold">c.) Retainer Fee.</span> This Agreement shall have ☐ no retainer fee
+                    ☐ a
+                    non-refundable retainer
+                </p>
+                <p>fee in the amount of $ <span class="underline">{macross}</span> to obtain the Agency’s services under
+                </p>
+                <p>this Agreement (“Retainer Fee”). If a Commission is paid the Retainer Fee shall be
+                </p>
+                <p>deducted from the total Commission amount. The Commission is due and payable at
+                </p>
+                <p>closing by the Buyer. The amount or rate of real estate commissions is not fixed by law.
+                </p>
+                <p>The commission is set by each Broker individually and may be negotiable between the
+                </p>
+                <p>Buyer and the Broker</p>
+
+
+                <p class="mt-2"><span class="bold">d.) Leasing.</span> During the Listing Period, if the Agency finds a
+                    ready, willing, and able
+                </p>
+                <p>Landlord that agrees to rent real property to the Buyer, the Agency shall be due </p>
+                <p> <span class="underline">{macross}</span> percent ( <span class="underline">{macross}</span>% ) of
+                    the total rent amount stated in the rental
+                </p>
+                <p>agreement for the lease term. The lease term shall be defined as the period between the
+                </p>
+                <p>start and end dates listed in the rental agreement, not including any renewal period(s). If
+                </p>
+                <p>the Buyer agrees to rent the real property on a month-to-month basis, the Agency shall
+                </p>
+                <p>be due the equivalent of one (1) month’s rent (“Commission”)</p>
+
+            </div>
+
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">V. Buyer’s Identity.</span> The Buyer agrees and directs the Broker to: (check one)
+            </p>
+            <div class="ml-2">
+                <p><span class="bold">☐ - Disclose the Buyer’s Identity.</span> When presenting an offer, orally or in
+                    writing, the
+                </p>
+                <p>Broker agrees to disclose the identity of the Buyer.</p>
+                <p><span class="bold">☐ - Exclusive Basis:</span> When presenting an offer, orally or in writing, the
+                    Broker agrees to
+                </p>
+                <p>keep the Buyer’s identity anonymous. The Buyer’s identity must remain confidential
+                </p>
+                <p>through the expiration of the Listing Period unless written consent is granted by the
+                </p>
+                <p>Buyer. If the Buyer’s identity is released by the Broker during the Listing Period, the
+                </p>
+                <p>Buyer shall be entitled to monetary damages equal to the fullest extent under law.</p>
+            </div>
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">VI. Agency Disclosure.</span> Buyer recognizes that, under this Agreement, a
+                relationship
+                has been
+            </p>
+            <p>established between the Buyer and Agency. The Agency’s policy regarding other agents,
+            </p>
+            <p>specifically those not represented by the Agency, includes, but is not limited to, cooperating with
+            </p>
+            <p>other agencies acting as listing agents, sharing compensation with listing agents, and paying
+            </p>
+            <p>other agencies in the same manner representing their Sellers.</p>
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">VII. Disclosed Dual Agency.</span> Due to certain events, the Broker may be required
+                to
+                act as the
+            </p>
+            <p> only licensee involved between the Buyer and Seller to facilitate the transaction between the </p>
+            <p>parties. Under such circumstance, the Broker shall disclose to Buyer their intention to act as a </p>
+            <p>disclosed dual agent or similar role. If a Seller of real property is produced by the Broker, or by a
+            </p>
+            <p>licensee in the same Agency as the Broker, the Buyer consents to the Broker acting in such a </p>
+            <p>role and agrees to allow the Broker to collect compensation from the Seller or other parties. </p>
+            <p>While performing this role, Broker agrees to conduct themselves in a manner that does not </p>
+            <p>adversely affect the Buyer or Seller in any way, including, but not limited to, stating the Seller is
+            </p>
+            <p>willing to sell for a lesser price than the asking price, stating the Buyer is willing to pay more </p>
+            <p>than an offer that is made or suggested, or disclosing any type of financial information that </p>
+            <p>would negatively affect the other party.</p>
+            <p>Buyer has read this Section and fully comprehends and understands the concept of Disclosed </p>
+            <p>Dual Agency under the laws in the State</p>
+
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">Therefore, the Buyer hereby agrees to ☐ ALLOW Disclosed Dual Agency ☐ NOT ALLOW
+            </p>
+            <p>Disclosed Dual Agency.</p>
+        </div>
+        <!-- VIII. Buyer’s Duties. Buyer agrees to work with the Agency in accordance with Section II of this
+Agreement in addition to the following:
+a.) Financial Records. Buyer agrees to submit any and all financial information to the
+Agency in order to verify the Buyer’s ability to purchase real property. This includes, but
+is not limited to, documentation related to tax returns, pay stubs, bank statements, credit
+reports, pre-qualification or pre-approval letters, outstanding debts or liens, certificates of
+ownership, and any other information that may assist in the Buyer’s ability to purchase
+real property.
+b.) Contact with 3rd Parties. Buyer recognizes that for the Agency to perform their services
+to the best of their abilities, that the Buyer contact the Agency before visiting an open
+house, contacting another agency, contacting a homeowner directly, or making any type
+of communication that involves expressing interest in real property.
+c.) Exclusive Responsibility. Buyer recognizes that ultimately it is their sole responsibility
+to verify any and all information provided to Buyer by the Broker. Furthermore, Buyer
+agrees to indemnify and hold the Broker harmless from any and all loss, cost, expense,
+attorney fees, damage or claim arising out of this Agreement, including without limitation,
+liability resulting from incomplete or inaccurate information provided to Broker. -->
+        <div class="mt-2">
+            <p><span class="bold">VIII. Buyer’s Duties.</span> Buyer agrees to work with the Agency in accordance with
+                Section II of this
+            </p>
+            <p>Agreement in addition to the following:</p>
+            <div class="ml-2">
+                <p><span class="bold">a.) Financial Records.</span> Buyer agrees to submit any and all financial
+                    information to the</p>
+                <p>Agency in order to verify the Buyer’s ability to purchase real property. This includes, but </p>
+                <p>is not limited to, documentation related to tax returns, pay stubs, bank statements, credit </p>
+                <p>reports, pre-qualification or pre-approval letters, outstanding debts or liens, certificates of </p>
+                <p>ownership, and any other information that may assist in the Buyer’s ability to purchase </p>
+                <p>real property.</p>
+
+
+            </div>
+            <div class="ml-2">
+                <p><span class="bold">b.) Contact with 3rd Parties.</span> Buyer recognizes that for the Agency to
+                    perform their services
+                </p>
+                <p>to the best of their abilities, that the Buyer contact the Agency before visiting an open </p>
+                <p>house, contacting another agency, contacting a homeowner directly, or making any type </p>
+                <p>of communication that involves expressing interest in real property.</p>
+            </div>
+            <div class="ml-2">
+                <p><span class="bold">c.) Exclusive Responsibility.</span> Buyer recognizes that ultimately it is their
+                    sole responsibility
+                </p>
+                <p>to verify any and all information provided to Buyer by the Broker. Furthermore, Buyer </p>
+                <p>agrees to indemnify and hold the Broker harmless from any and all loss, cost, expense, </p>
+                <p>attorney fees, damage or claim arising out of this Agreement, including without limitation, </p>
+                <p>liability resulting from incomplete or inaccurate information provided to Broker.</p>
+            </div>
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">IX. Disclaimer.</span> Buyer acknowledges that the Broker is not a professional or
+                expert in the
+            </p>
+            <p>matters of law, Federal or State tax codes, financing, surveying, engineering, architectural,
+            </p>
+            <p>structural, environmental, other physical conditions or non-physical details of real property. In
+            </p>
+            <p>addition, the Broker has advised and recommended the Buyer to seek expert assistance for
+            </p>
+            <p>advice on such matters. Broker makes no warranty or guarantee concerning the service of such
+            </p>
+            <p>experts or their products, the condition of property, the absence of defects therein, or the
+            </p>
+            <p>suitability of such property for Buyer’s purposes.</p>
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">X. Dispute Resolution.</span> In connection with the purchase of the real property,
+                the
+                Buyer and
+
+            </p>
+            <p>Broker mutually covenant, stipulate and agree that in connection with the resolution of any</p>
+            <p>dispute or controversy arising out of or relating to this Agreement or concerning the real</p>
+            <p>property covered hereby, or the breach, termination, or validity thereof, shall be administered</p>
+            <p>by submitting to binding arbitration. Due to this Agreement involving interstate commerce, the</p>
+            <p>Agreement has been and will continue to be regulated by the laws in the United States of</p>
+            <p>America; and, that the contract(s) entered into by the Parties concerning the real property</p>
+            <p>evidence transactions involving and affecting commerce. The Parties agree that all disputes not</p>
+            <p>barred by applicable statutes of limitations or otherwise barred by law, resulting from or arising</p>
+            <p>out of this Agreement or the purchase contemplated; that Buyer and Broker agree to submit</p>
+            <p>such dispute(s) to binding arbitration, pursuant to the provisions of 9 U.S.C Section 1, et seq</p>
+            <p>and according o the Commercial Rules of the American Arbitration Association then existing in</p>
+            <p>the County where the real property being sold and located. The prepaid arbitration filing fees</p>
+            <p>and all other prepaid costs of the arbitration proceeding shall be paid by the party seeking to</p>
+            <p>invoke said arbitration, with the assignment of those costs to be divided between the parties as</p>
+            <p>the arbitrator sees fit in setting the Arbitration Award. It is hereby agreed that it is the intent of
+            </p>
+            <p>the Parties that the Arbitrator’s Award is to be final and binding and judgment upon the award</p>
+            <p>rendered by the arbitration may be entered in any court having jurisdiction thereof. THIS</p>
+            <p>ARBITRATION SHALL BE IN FULL LIEU OF ANY CIVIL LITIGATION IN ANY COURT, AND IN</p>
+            <p>LIEU OF ANY TRIAL BY JURY.</p>
+        </div>
+
+        <div class="mt-2">
+            <p><span class="bold">XI. Fair Housing.</span> Broker agrees and adheres to the standard of showing real
+                properties made
+            </p>
+            <p>available to the Buyer without regard to race, color, religion, age, handicap, familial status, or </p>
+            <p>national origin.</p>
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">XII. Other Clients.</span> Buyer is aware and acknowledges that the Broker may or may
+                not have
+
+            </p>
+            <p> other clients with similar wants and needs. Broker shall not favor any client over the Buyer for
+                any reason.</p>
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">XIII. Binding Effect.</span> This Agreement shall be binding upon the Buyer’s
+                successors, assigns,
+            </p>
+            <p>heirs, and beneficiaries.</p>
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">XIV. False Information.</span> Buyer agrees to indemnify the Agency and hold
+                harmless from any
+            </p>
+            <p>and all claims, which may lead to a dispute, due to false information provided. Such </p>
+            <p>indemnification shall include the Buyer’s reimbursement to the Agency for any attorneys’ fees </p>
+            <p>arising from any dispute brought against the Agency.</p>
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">XV. Legal Signature.</span> This Agreement may be executed and delivered by any
+                party herein by
+            </p>
+            <p>sending a facsimile of the signature or by a legally recognized digital or electronic signature.</p>
+            <p>Such legal signature shall be binding on the party so executing it upon receipt of signature by the
+            </p>
+            <p>other party.</p>
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">XVI. Governing Law.</span> This Agreement shall be governed under the laws located
+                in the State of
+            </p>
+            <p>West Virginia.</p>
+        </div>
+        <div class="mt-2">
+            <p><span class="bold">XVII. Severability.</span> This Agreement shall remain in effect in the event a
+                section or provision is
+            </p>
+            <p>unenforceable or invalid. All remaining sections and provisions shall be deemed legally binding </p>
+            <p>unless a court rules that any such provision or section is invalid or unenforceable, thus, limiting </p>
+            <p>the effect of another provisions or section. In such case, the affected provision or section shall </p>
+            <p>be enforced as so limited.</p>
+        </div>
+        <!-- XVIII. Additional Terms and Conditions -->
+        <div class="mt-2">
+            <p><span class="bold">XVIII. Additional Terms and Conditions</span>{macros}</p>
+            <p class="underline">{macros}</p>
+        </div>
+        <!-- XIX. Entire Agreement. This Agreement constitutes the entire agreement between the Buyer
+        and Broker and supersedes all prior discussions, negotiations, and agreements between the
+        Buyer and Broker whether oral or written. Any understanding, agreement or promise shall bind
+        neither Buyer not Broker, expressed or implied, not specified herein.
+
+
+        This Agreement is intended to be the legal and binding agreement of the Buyer and Broker. The
+        Parties acknowledge receipt of a signed copy of this Agreement. -->
+        <div class="mt-2">
+            <p><span class="bold">XIX. Entire Agreement.</span> This Agreement constitutes the entire agreement between
+                the Buyer
+
+            </p>
+            <p>
+                and Broker and supersedes all prior discussions, negotiations, and agreements between the
+            </p>
+            <p>
+                Buyer and Broker whether oral or written. Any understanding, agreement or promise shall bind
+            </p>
+            <p>
+                neither Buyer not Broker, expressed or implied, not specified herein.
+            </p>
+            <p class="mt-2">This Agreement is intended to be the legal and binding agreement of the Buyer and Broker.
+                The </p>
+            <p>
+                Parties acknowledge receipt of a signed copy of this Agreement.</p>
+        </div>
+        <div>
+            <div style="display: flex;  justify-content: space-between; margin: 5px 0px;">
+                <div>
+                    <p class=" flex"><span class="bold">Buyer’s Signature: </span> <span
+                            class="underline">{macros}</span> </p>
+                    <p class=""><span>Print Name: </span> <span class="underline">{macros}</span> </p>
+
+                </div>
+                <p class="wh" style="margin-left: 20px;"><span> Date:</span> <span class="underline">{macros}</span>
+                </p>
+
+            </div>
+            <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+                <div>
+                    <p class=" flex"><span class="bold">Buyer’s Signature: </span> <span
+                            class="underline">{macros}</span> </p>
+                    <p class=""><span>Print Name: </span> <span class="underline">{macros}</span> </p>
+
+                </div>
+                <p class="wh" style="margin-left: 20px;"><span> Date:</span> <span class="underline">{macros}</span>
+                </p>
+            </div>
+
+            <div style="display: flex;  justify-content: space-between;  margin: 5px 0px;">
+                <div>
+                    <p class=" flex"><span class="bold">Buyer’s Signature: </span> <span
+                            class="underline">{macros}</span> </p>
+                    <p class=""><span>Print Name: </span> <span class="underline">{macros}</span> </p>
+                    <p class=""><span>Agency Name:</span> <span class="underline">{macros}</span> </p>
+
+                </div>
+                <p class="wh" style="margin-left: 20px;"><span> Date:</span> <span class="underline">{macros}</span>
+                </p>
+            </div>
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>

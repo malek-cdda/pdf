@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            color: #393939;
+            font-size: 9pt;
+            font-weight: 300;
+            line-height: 1.5;
+            tab-size: 4;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+                "Noto Color Emoji";
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .mt {
+            margin-top: 1rem;
+        }
+
+        .mt-1 {
+            margin-top: 0.5rem;
+        }
+
+        .mt-2 {
+            margin-top: 2rem;
+        }
+
+        .ml-2 {
+            margin-left: 2rem;
+        }
+
+        .ml-1 {
+            margin-left: 1rem;
+        }
+
+        p {
+            margin-top: .5rem;
+        }
+
+        .wh {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="flex justify-between">
+            <img width="50" height="50"
+                src="https://media.istockphoto.com/id/1164279629/vector/wooden-house-frame-real-estate-symbol.jpg?s=2048x2048&w=is&k=20&c=cvpQcdlp7f1xhA5Gq0-UnGVLF2yh8tFl1UNFZJuVGOg=" />
+            <div class="flex flex-column items-center">
+
+                <h3>VIRGINIA REALTORS®
+                </h3>
+                <h3> EXCLUSIVE RIGHT TO REPRESENT BUYER AGREEMENT</h3>
+                <h3>(Standard Agency)</h3>
+            </div>
+            <img width="50" height="50"
+                src="https://media.istockphoto.com/id/1164279629/vector/wooden-house-frame-real-estate-symbol.jpg?s=2048x2048&w=is&k=20&c=cvpQcdlp7f1xhA5Gq0-UnGVLF2yh8tFl1UNFZJuVGOg=" />
+        </div>
+        <p style="text-align: center;">(This is a legally binding contract; if not understood, seek competent advice
+            before signing.)</p>
+        <div class="mt-2">
+            <p>This AGREEMENT made as of <span class="underline">{macros}</span> by and between
+                <span class="underline">{macros}</span>
+            </p>
+            <p>(“Buyer”); and
+                <span class="underline">{macros}</span> (“Broker”), provides:
+            </p>
+            <p>1. In consideration of the mutual covenants contained in this Agreement, Buyer hereby appoints Broker to
+                represent Buyer in the </p>
+            <p> acquisition of real property. As used in this Agreement, “acquisition of real property” shall include
+                any purchase, option, exchange or</p>
+            <p> lease of property or an agreement to do so. Buyer is retaining Broker to acquire the following specific
+                property or type of property: </p>
+            <p> <span class="underline">{macros}</span> </p>
+        </div>
+        <p>2. This AGREEMENT made as of <span class="underline">{macros}</span> and terminate at midnight on
+            <span class="underline">{macros}</span>
+        </p>
+        <p>3.<span class="bold">BROKER’S DUTIES: </span> Broker shall represent Buyer as a standard agent in this
+            brokerage relationship and
+            represent Buyer in </p>
+        <p> a diligent and effective manner to locate property available for purchase and suitable to Buyer. Unless
+            otherwise provided by law or </p>
+        <p> Buyer consents in writing to the release of information, Broker shall maintain the confidentiality of
+            personal information, financial</p>
+        <p> information and other matters identified as confidential by Buyer that is received from Buyer in the course
+            of the brokerage</p>
+        <p> relationship. If Broker is not the listing firm of the seller (the “Listing Firm”), Broker shall represent
+            solely the interest of Buyer in all </p>
+        <p> negotiations and transactions regarding the acquisition of real property, and shall repudiate any agency
+            relationship with the seller</p>
+        <p> unless consented to in writing by Buyer. Broker shall have no obligation to search out such properties
+            beyond those that come to</p>
+        <p> the attention of Broker in the ordinary course of Broker’s business. Broker may represent other buyers who
+            may be interested in the</p>
+        <p> same property as Buyer
+        </p>
+        <div class="mt-2">
+            <p>4. <span class="bold"> BUYER’S DUTIES:</span>
+                Buyer shall: work exclusively with Broker during the term of this Agreement; comply with the reasonable
+            </p>
+            <p>
+                requests of Broker to supply any pertinent information or personal data needed to fulfill the terms of
+                this Agreement; pay Broker the </p>
+            <p> compensation set forth below; be available during Broker’s regular
+                working hours to view properties; consult with Broker before </p>
+            <p> visiting any resale or new homes or
+                contacting any other real estate licensees or property owners to avoid confusion over the </p>
+            <p> brokerage
+                relationships and liability for payment of the compensation due to Broker; and inform all sellers and
+                licensees whom </p>
+            <p> Buyer contacts of Buyer’s brokerage relationship with Broker.</p>
+        </div>
+        <div class="mt-2">
+            <p>5. <span class="bold"> COMPENSATION:</span>
+                Broker is authorized to receive the compensation offered by the Listing Firm to a buyer’s broker or paid
+                by a
+            </p>
+            <p>
+                seller, which compensation will be credited against the Fee (defined below) due by Buyer to Broker. For
+                the services rendered by </p>
+            <p> Broker, Buyer agrees to pay Broker a fee (the “Fee”) equal to: </p>
+            <p> <span class="underline">{macros}</span>% of the gross purchase price of the property acquired by Buyer;
+                AND/OR </p>
+            <p>the compensation offered by the Listing Firm or by a seller to a buyer’s broker on property acquired by
+                Buyer, but </p>
+            <p> such compensation shall not be less than <span class="underline">{macros}</span> </p>
+            <p> the sum of $ <span class="underline">{macros}</span> </p>
+
+            <p>The Fee shall be due during the term of this Agreement if Buyer enters into a contract to acquire a
+                property of the type described </p>
+            <p>above through services of Broker or otherwise, or the material conditions of such contract are
+                subsequently met. The Fee shall also</p>
+            <p>be due to Broker if the real property is shown or described to Buyer by Broker during the term of this
+                Agreement and Buyer obtains</p>
+            <p>title thereto within <span class="underline">{macros}</span> days after the expiration of this Agreement
+                unless Buyer has entered into a subsequent buyer</p>
+            <p>brokerage agreement with another real estate brokerage firm. The Fee shall be payable to Broker on the
+                earlier of transfer of title or</p>
+            <p>any action or default by Buyer which results in Buyer’s not obtaining title to the property after the
+                material conditions of the contract</p>
+            <p>for the acquisition of the real property are met. Buyer’s obligation to pay the Fee shall survive the
+                termination of this Agreement. Any</p>
+            <p>compensation received by Broker from the Listing Firm or seller (including any selling bonus) in excess
+                of the Fee shall be paid to</p>
+            <p>and retained by Broker even though said amount may exceed the Fee. Broker shall promptly disclose any
+                selling bonus to Buyer,</p>
+            <p>but in all events prior to contract ratification. After crediting any compensation received by Broker
+                from the Listing Firm or the seller,</p>
+            <p>Buyer shall be responsible for the balance of the Fee due to Broker. Buyer shall not modify Broker’s Fee
+                in any real estate purchase</p>
+            <p>contract.</p>
+
+        </div>
+        <div class="mt-2">
+            <p>6. <span class="bold"> DUAL/DESIGNATED AGENTS:</span>
+                Broker is authorized to receive the compensation offered by the Listing Firm to a buyer’s broker or paid
+                by a
+            </p>
+            <p>certain properties listed by Broker may be of interest to Buyer. Buyer authorizes Broker to bring to
+                Buyer’s attention any properties</p>
+            <p>listed by Broker which may suit Buyer’s needs and hereby instructs Broker to inform Buyer at the time of
+                its representation of the</p>
+            <p>seller. If Buyer elects to view or consider property listed by Broker and to make an offer on such
+                property, then dual agency by the</p>
+            <p>Broker will exist, and Broker must either obtain the written consent of Buyer and Broker’s seller client
+                to: (i) assign different</p>
+            <p>licensees of Broker as designated agents to represent Buyer and seller; or (b) act as a dual agent for
+                Buyer and seller in the same</p>
+            <p>transaction. Under Virginia law, designated agents shall not be considered dual agents and shall not be
+                limited in their ability to</p>
+            <p>represent the client to whom they are designated in the transaction. The principal or supervising broker
+                who is supervising the</p>
+            <p>transaction is considered a dual agent of both Buyer and seller, and such broker’s ability to represent
+                both clients will be limited.</p>
+            <p>Broker shall not disclose to either client or such client’s designated agent any information that has
+                been given to Broker by the other </p>
+            <p>client within the confidence and trust of the brokerage relationship, unless the disclosure is required
+                by law or consented to in .</p>
+            <p>writing by the affected party. In dual agency, there is a limitation on Broker’s ability to represent
+                either Buyer or seller fully and</p>
+            <p> exclusively. Paragraph 7 of this Agreement contains a disclosure explaining more fully the roles and
+                responsibilities of Buyer, a </p>
+            <p>seller and the agent in a dual agency. Broker shall request Buyer’s consent to act as a dual agent if
+                Buyer desires to make an offer</p>
+            <p> on a property listed by Broker and Buyer agrees that before making an offer</p>
+            <p> on any property listed by Broker, Buyer will enter into a written consent to a dual agency on the part
+                of Broker</p>
+
+        </div>
+        <div class="mt-3">
+            <p>7. <span class="bold"> DISCLOSURE REGARDING DUAL AGENCY: </span>
+                If Buyer is shown a property listed by Broker and/or makes an offer on such
+            </p>
+            <p>property, and Broker has not designated agents to represent Buyer and the seller, Broker and all of
+                Broker’s licensees will be acting</p>
+            <p>as the agent for both the seller and Buyer in the transaction. In such a transaction, Broker will remain
+                impartial to the seller and</p>
+            <p>Buyer. Buyer agrees that Broker shall not be liable to either party for refusing or failing to disclose
+                information which, in the sole</p>
+            <p>discretion of Broker, would harm one party’s bargaining position and would benefit the other party.
+                Broker cannot disclose or advise</p>
+            <p>either Buyer or seller as to (i) the terms to offer or accept in any offer or counteroffer; (ii) the
+                suitability of the property, its condition</p>
+            <p>(other than to make any disclosures as required by law of any licensee representing a seller), or the
+                repairs to make or request; or</p>
+            <p>(iii) any dispute that arises relating to the transaction. If the seller and Buyer do not enter into an
+                agreement for the purchase of the</p>
+            <p>seller’s property, such dual agency shall terminate. Buyer acknowledges the implications of Broker’s dual
+                agency, including the</p>
+            <p>limitation on Broker’s ability to represent the seller or Buyer fully and exclusively. Buyer understands
+                that Buyer may seek</p>
+            <p>independent legal counsel or engage another real estate licensee at Buyer’s sole expense in order to
+                assist with any matter relating</p>
+            <p>to a purchase agreement or to the transaction that is the subject matter of a purchase agreement. If
+                Buyer engages legal counsel</p>
+            <p>and/or another real estate licensee, Broker shall: (i) continue to act as a dual agent with the consent
+                of Buyer; or (ii) terminate</p>
+            <p>Broker’s representation of Buyer by written notice to Buyer only with respect to the property listed by
+                Broker in which Buyer has</p>
+            <p>made an offer, but in either choice of (i) or (ii) above, Broker shall be entitled to the Fee set forth
+                in Paragraph 5 unless otherwise</p>
+            <p>agreed to by Broker. Provided Broker has acted in accordance with its obligations under this Agreement,
+                Broker shall not be liable</p>
+            <p>for any claims, damages, losses, expenses or liabilities arising from Broker’s role as dual agent. Buyer
+                shall have a duty to protect</p>
+            <p>its own interests and should read any purchase agreement carefully to insure that it accurately sets
+                forth terms Buyer wants</p>
+            <p>ncluded in the purchase agreement. If acting as a dual agent, Broker will: treat the seller and Buyer
+                honestly; disclose material facts</p>
+            <p>about the property that are known to Broker as required by law; assist in the preparation of the purchase
+                agreement; work diligently</p>
+            <p>to facilitate the sale and work with the seller and Buyer’s settlement agent/attorney to facilitate
+                closing. Broker may also assist Buyer</p>
+            <p>to arrange property inspections, help Buyer compare financing alternatives, and provide information about
+                comparable properties so</p>
+            <p>the seller and Buyer may make an educated decision about the price to be contained in the purchase
+                agreement.</p>
+        </div>
+        <div class="mt-2">
+            <p>7. <span class="bold">MISCELLANEOUS: </span>
+                Buyer acknowledges that Broker is being retained solely as a real estate agent and is not an attorney,
+                tax
+            </p>
+            <p>advisor, lender, appraiser, surveyor, structural engineer, home inspector or other service provider.
+                Buyer has been advised to seek</p>
+            <p>professional advice for any such matters. This Agreement may not be modified or changed except by written
+                instrument executed</p>
+            <p>by the parties, and it shall be construed, interpreted, and applied according to the laws of the
+                Commonwealth of Virginia.</p>
+        </div>
+        <div class="mt-3">
+            <h4>10. ELECTRONIC SIGNATURES: <span class="underline"> {macros} / {macros} </span>If this paragraph is
+                initialed by both parties, then in accordance with <br /> the Uniform Electronic Transactions Act (UETA)
+                and
+                the Electronic Signatures in Global and National Commerce Act, or E<br />-Sign, regarding electronic
+                signatures and transactions, the parties do hereby expressly authorize and agree to the use of<br />
+                electronic signatures as an additional method of signing and/or initialing this Agreement. The parties
+                hereby agree that<br /> either party may sign electronically by utilizing an electronic signature
+                service.
+            </h4>
+        </div>
+        <div class="mt-2">
+            <p>7. <span class="bold">WIRE FRAUD ALERT. </span>
+                Criminals are hacking email accounts of real estate agents, title companies, settlement attorneys, and
+            </p>
+            <p>others, resulting in fraudulent wire instructions being used to divert funds to the account of the
+                criminal. Buyer is advised to not wire</p>
+            <p>any funds without personally speaking with the intended recipient of the wire to confirm the routing
+                number and the account number.</p>
+            <p>Buyer should not send personal information such as Social Security numbers, bank account numbers, and
+                credit card numbers</p>
+            <p>except through secured email or personal delivery to the intended recipient.</p>
+        </div>
+        <div class="mt-3">
+            <h5>
+                OTHER TERMS:
+                <span class=" underline">{macros}</span>
+            </h5>
+        </div>
+        <div class="flex justify-between">
+            <div class="wh">
+                <h3>BUYER</h3>
+                <div>
+                    <p> <span class="underline">{macros}/{macros}</span></p>
+                    <div class="flex justify-between">
+                        <p>Date</p>
+                        <p>Buyer</p>
+                    </div>
+                </div>
+                <div>
+                    <p> <span class="underline">{macros}/{macros}</span></p>
+                    <div class="flex justify-between">
+                        <p>Date</p>
+                        <p>Buyer</p>
+                    </div>
+                </div>
+                <div>
+                    <p> <span class="underline">{macros}/{macros}</span></p>
+                    <div class="flex justify-between">
+                        <p>Date</p>
+                        <p>Buyer</p>
+                    </div>
+                </div>
+                <div>
+                    <p> <span class="underline">{macros}/{macros}</span></p>
+                    <div class="flex justify-between">
+                        <p>Date</p>
+                        <p>Buyer</p>
+                    </div>
+                </div>
+                <div>
+                    <p> <span class="underline">{macros}/{macros}</span></p>
+                    <div class="flex justify-between">
+                        <p>Date</p>
+                        <p>Buyer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wh">
+                <h3>BROKER</h3>
+                <div>
+                    <p> <span class="underline">{macros}/{macros}</span></p>
+                    <p> <span class="underline">{macros}/{macros}</span></p>
+                    <p> BY<span class="underline">{macros}/{macros}</span></p>
+                    <p> NAME<span class="underline">{macros}/{macros}</span></p>
+                    <p> DATE <span class="underline">{macros}/{macros}</span></p>
+                    <p>Supervising Broker Name: <span class="underline">{macros}/{macros}</span></p>
+                    <p> Supervising Broker Contact Information: <span class="underline">{macros}/{macros}</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
